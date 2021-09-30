@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+}
+
+html,
+body {
+    background-color: purple;
+}
+
+.contorno {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+}
+
+.principal,
+.telefone,
+.endereco,
+.estado-civil,
+.opcao-contato,
+.checar,
+.botoes {
+    margin-top: 25px;
+}
+
+input {
+    padding: 3px 4px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h3 {
+    margin-bottom: 15px;
+}
+
+.estado-cidade,
+.bairro-num-logradouro {
+    margin-top: 7px;
+}
+
+.fieldset-opcao {
+    padding: 1%;
+}
+
+.opcao-contato label {
+    margin-left: 5px;
+}
+
+.checar label {
+    margin-left: 5px;
+}
